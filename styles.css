@@ -1,9 +1,10 @@
-/* body{
+body{
     background-image: url("BackgroundImage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-} */
+}
+
 p{
     display: block;
     width: auto;
@@ -26,11 +27,11 @@ button{
 }
 
 .child-container{
-    background-color: yellow;
+    background: transparent;
     border-radius: 20px;
     width: 330px;
     height: 600px;
-    padding: 25px 15px 25px 15px;
+    padding:30px 20px 30px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
