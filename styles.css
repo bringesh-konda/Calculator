@@ -4,29 +4,16 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 } */
-
-.answer{
-    width: 328px;
-    height: 100px;
-    color: white;
-    background-color: black;
-    margin-bottom: auto;
-    margin-top: auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.fa-solid{
-    color: orange;
-}
 p{
     display: block;
     width: auto;
     color: white;
 }
-.fa-equals{
-    background-color: orange;
+
+button{
+    font-size: larger;
+    border: none;
+    background-color: black;
     color: white;
     border-radius: 100%;
 }
@@ -39,9 +26,11 @@ p{
 }
 
 .child-container{
-    /* background-color: yellow; */
-    width: 500px;
-    height: 550px;
+    background-color: yellow;
+    border-radius: 20px;
+    width: 330px;
+    height: 600px;
+    padding: 25px 15px 25px 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,12 +41,28 @@ p{
     display: grid;
     grid-template-rows: repeat(5, 80px);
     grid-template-columns: repeat(4, 80px);
-    gap: 2px;
+    gap: 5px;
     margin: auto;
 }
 
-button{
-    border: none;
-    background-color: black;
+.answer{
+    width: 300px;
+    height: 100px;
+    font-size: larger;
     color: white;
+    border-radius: 15px;
+    background-color: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 30px 20px 30px 20px;
 }
+
+.equals{
+    border-radius: 20px;
+    width: 326px;
+    height: 50px;
+    margin-top: 10px;
+}
+
