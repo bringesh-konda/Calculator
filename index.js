@@ -1,19 +1,32 @@
 const btns = document.querySelectorAll("button");
 
-var arr = []
+var string = "";
 
 btns.forEach((btn)=>{
     btn.addEventListener("click", (event)=>{
         const caughtElement = event.target.innerText;
-        console.log(caughtElement);
-        if(caughtElement === "del")
+        const answer = document.querySelector(".answer");
+        if(caughtElement === "del") {
+            string = string.slice(0, -1);
+            answer.textContent = string;
+        } 
+        else if(caughtElement === "AC") {
+            string = string.replace(string, "");
+            answer.textContent = string;
+        }
+        else if(caughtElement === "=")
         {
-            arr.pop();
+            if(eval(string) == "Infinity")
+                answer.textContent = "Math Error";
+            else
+                answer.textContent = eval(string);
+            
+            string = string.replace(string, "");
         }
-        else{
-            arr.push(caughtElement);
+        else {
+            string += caughtElement;
+            document.querySelector(".answer").textContent = string;
         }
-        console.log(arr);
     })
 });
 

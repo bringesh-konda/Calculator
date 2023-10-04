@@ -12,12 +12,19 @@
     background-color: black;
     margin-bottom: auto;
     margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .fa-solid{
     color: orange;
 }
-
+p{
+    display: block;
+    width: auto;
+    color: white;
+}
 .fa-equals{
     background-color: orange;
     color: white;
@@ -32,7 +39,7 @@
 }
 
 .child-container{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 500px;
     height: 550px;
     display: flex;
