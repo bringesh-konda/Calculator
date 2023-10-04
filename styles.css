@@ -1,0 +1,56 @@
+/* body{
+    background-image: url("BackgroundImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+.answer{
+    width: 328px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.fa-solid{
+    color: orange;
+}
+
+.fa-equals{
+    background-color: orange;
+    color: white;
+    border-radius: 100%;
+}
+
+.parent-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-container{
+    background-color: yellow;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grand-child-container{
+    display: grid;
+    grid-template-rows: repeat(5, 80px);
+    grid-template-columns: repeat(4, 80px);
+    gap: 2px;
+    margin: auto;
+}
+
+button{
+    border: none;
+    background-color: black;
+    color: white;
+}
