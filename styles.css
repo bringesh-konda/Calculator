@@ -11,13 +11,17 @@ p{
     color: white;
 }
 
+.special{
+    background-color: #352319;
+}
+
 
 button{
     font-size: larger;
     border: none;
-    background: transparent;
-    backdrop-filter: blur(100px);
-    color: black;
+    background-color: #10121F;
+    background-color: #22304B;
+    color: #CDDAE0;
     border-radius: 30px;
 }
 
@@ -29,8 +33,8 @@ button{
 }
 
 .child-container{
-    background: transparent;
-    border: solid 2px black;
+    background-image: linear-gradient(to bottom, #161E31, #7289A9);
+    border: solid 2px #2D3D57;
     border-radius: 20px;
     width: 330px;
     height: 600px;
@@ -54,10 +58,10 @@ button{
     height: 100px;
     border: solid 2px black;
     border-radius: 20px;
-    background: transparent;
+    background-color: #10121F;
     backdrop-filter: blur(20px);
     font-size: larger;
-    color: white;
+    color: #CDDAE0;
     border-radius: 15px;
     margin-bottom: 20px;
     display: flex;
